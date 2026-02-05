@@ -5,70 +5,59 @@
 <h1 align="center">Private Real-Time Chat App</h1>
 
 <p align="center">
-A modern, secure, real-time chat experience built exclusively for couples who value privacy, intimacy, and simplicity.
+A secure, real-time chat experience crafted exclusively for couples who value privacy, intimacy, and simplicity.
 </p>
 
 <p align="center">
-No data tracking. No unnecessary users. Just two people, one private space.
+Two people. One private space. Zero compromises.
 </p>
 
 ---
 
-## ✨ Overview
+## Overview
 
-This project is a **private real-time web chat service** designed for couples who want a distraction-free, secure place to communicate.  
-Each room is intentionally limited to **only two participants**, eliminating privacy concerns and ensuring a truly personal experience.
+This project is a **private real-time web chat service** designed for couples who want a distraction-free and secure environment to communicate.
 
-The UI is inspired by familiar messaging apps, while the backend ensures fast, reliable real-time communication.
+Each room is intentionally restricted to **only two participants**, ensuring complete privacy and eliminating any risk of unauthorized access.
 
----
-
-## 🌟 Key Features
-
-- 🔐 **Strictly Private Rooms**  
-  Each room is locked to exactly two users—no third-party access.
-
-- ⚡ **Real-Time Messaging**  
-  Instant message delivery powered by WebSockets.
-
-- 💬 **WhatsApp-like Interface**  
-  Clean, intuitive, and easy to use.
-
-- 📱 **Mobile-First Design**  
-  Fully responsive and optimized for phones.
-
-- 👀 **Typing Indicators**  
-  See when your partner is typing in real time.
-
-- 🎨 **Smooth Animations**  
-  Subtle transitions for a premium feel.
-
-- 👫 **Built for Couples**  
-  No public chats. No noise. Just your private space.
+The interface is inspired by familiar modern messaging apps while maintaining a lightweight and elegant design.
 
 ---
 
-## 🚀 Tech Stack
+## Key Features
 
-- **Node.js** & **Express** — Backend server  
-- **Socket.io** — Real-time communication  
-- **HTML, CSS, JavaScript** — Frontend  
-- **Render** — Deployment (works with any cloud platform)
+› Strictly private two-person rooms  
+› Real-time messaging with instant delivery  
+› Clean, WhatsApp-style user interface  
+› Mobile-first and fully responsive layout  
+› Live typing indicators  
+› Smooth, minimal animations  
+› Purpose-built for couples  
 
 ---
 
-## 💡 How It Works
+## Technology Stack
+
+› **Node.js** with **Express**  
+› **Socket.io** for real-time communication  
+› **HTML, CSS, JavaScript** frontend  
+› **Render** or any modern cloud platform  
+
+---
+
+## How It Works
 
 1. Enter your name  
 2. Join a private room  
-3. Start chatting instantly with full privacy  
+3. Start chatting instantly with complete confidence  
 
-### 🎵 Optional Music Mode
+### Optional Music Mode
+
 Music Mode is disabled by default.
 
 To enable it:
 1. Fork the repository  
-2. Add an environment variable on your hosting platform  
+2. Add an environment variable to your hosting platform  
 3. Set:
    ```env
    MUSIC_ENABLED=true
